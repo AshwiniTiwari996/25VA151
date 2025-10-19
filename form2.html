@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMS IN HTML</h1>
+    <form action="/submit.php">
+        <div>
+            <label for="name">NAME</label>
+            <input id="name" type="text" placeholder="Enter Name">
+            
+        </div>
+        <div>
+
+            <label for="password">PASSWORD</label>
+            <input id="password" type="password" placeholder="PASSWORD">
+        </div>
+        <div>
+<label for="e-mail">e-mail</label>
+            <input id="e-mail" type="e-mail" placeholder="E-MAIL">
+
+        </div>
+        <div>
+<label for="dob">date of birth</label>
+            <input id="dob" type="date" required>
+
+        </div>
+        <div>
+
+           <label for="gender">GENDER</label>
+           <select id="gender" required>
+            <option value="">select gender</option>
+            <option value="male">MALE</option>
+            <option value="female">FEMALE</option>
+            <option value="others">OTHERS</option>
+
+           </select>
+        </div>
+        <div>
+<p>SUBSCRIPTION PLAN</p>
+<input id="basic" type="radio" name="subscription" value="basic">
+<label for="basic">BASIC</label>
+
+<input id="premium" type="radio" name="subscription" value="premium">
+<label for="premium">PREMIUM</label>
+
+<input id="VIP" type="radio" name="subscription" value="VIP">
+<label for="VIP">VIP</label>
+
+<div>
+<input id="terms" type="checkbox" required>
+<label for="terms">i agree to the terms and conditions</label>
+
+
+</div>
+<div>
+    <label for="comments">comments</label>
+    <textarea id="comments" placeholder="enter your comments" rows="4"></textarea>
+    
+</div>
+
+<div>
+
+    <button types="submit">SUBMIT</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </form>
+</body>
+</html>
